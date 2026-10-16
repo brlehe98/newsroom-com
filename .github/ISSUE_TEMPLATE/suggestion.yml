@@ -1,7 +1,7 @@
 name: Suggest an idea / Faire une suggestion
 description: An idea to make Newsroom better. / Une idée pour améliorer Newsroom.
 title: "Idea: "
-labels: ["suggestion"]
+labels: ["enhancement"]
 body:
   - type: textarea
     id: idea
