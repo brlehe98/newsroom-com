@@ -1,25 +1,25 @@
-name: Report a bug / Signaler un bug
-description: Something in Newsroom does not work as it should. / Quelque chose ne fonctionne pas comme prévu.
+name: Report a bug
+description: Something in Newsroom does not work as it should.
 title: "Bug: "
 labels: ["bug"]
 body:
   - type: textarea
     id: what
     attributes:
-      label: What happened? / Que s'est-il passé ?
-      description: What you did, what you expected, and what you saw instead. / Ce que vous avez fait, ce que vous attendiez, et ce qui s'est passé.
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead.
     validations:
       required: true
   - type: dropdown
     id: device
     attributes:
-      label: Device / Appareil
+      label: Device
       options:
-        - Computer / Ordinateur
-        - Tablet / Tablette
-        - Phone / Téléphone
+        - Computer
+        - Tablet
+        - Phone
   - type: textarea
     id: screenshot
     attributes:
-      label: Screenshot (optional) / Capture d'écran (facultatif)
-      description: Drag an image here. Hide any private content first. / Glissez une image ici. Masquez d'abord tout contenu privé.
+      label: Screenshot (optional)
+      description: Drag an image here. Hide any private content first.
