@@ -1,0 +1,12 @@
+name: Suggest an idea / Faire une suggestion
+description: An idea to make Newsroom better. / Une idée pour améliorer Newsroom.
+title: "Idea: "
+labels: ["suggestion"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / Votre idée
+      description: What would you like, and how would it help your team? / Qu'aimeriez-vous, et en quoi ça aiderait votre équipe ?
+    validations:
+      required: true

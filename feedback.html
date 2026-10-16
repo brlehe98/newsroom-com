@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Newsroom – Feedback / Commentaires</title>
+<style>
+  :root { color-scheme: light dark; --text: #1d1d1f; --muted: #5f6368; --bg: #ffffff; --line: #d9d9de; --accent: #1a56c4; --card: #f5f5f7; }
+  @media (prefers-color-scheme: dark) { :root { --text: #f2f2f7; --muted: #a1a1a6; --bg: #1c1c1e; --line: #3a3a3c; --accent: #8cb4ff; --card: #2c2c2e; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  .choices { display: grid; gap: 12px; margin: 24px 0; }
+  .choice { display: block; padding: 16px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--text); text-decoration: none; }
+  .choice:hover { border-color: var(--accent); }
+  .choice strong { display: block; font-size: 18px; }
+  hr { border: none; border-top: 1px solid var(--line); margin: 40px 0; }
+</style>
+</head>
+<body>
+<main>
+<p class="muted"><a href="#en">English</a> · <a href="#fr">Français</a> · <a href="./">Privacy / Confidentialité</a></p>
+
+<section id="en" lang="en">
+<h1>Newsroom – Feedback</h1>
+<p>Found a problem or have an idea? Tell us.</p>
+<div class="choices">
+  <a class="choice" href="https://github.com/brlehe98/newsroom-privacy/issues/new?template=bug.yml"><strong>Report a bug</strong><span class="muted">Something does not work as it should.</span></a>
+  <a class="choice" href="https://github.com/brlehe98/newsroom-privacy/issues/new?template=suggestion.yml"><strong>Suggest an idea</strong><span class="muted">Something that would help your team.</span></a>
+</div>
+<p class="muted">You need a free GitHub account. Reports are public: do not include private content.</p>
+</section>
+
+<hr>
+
+<section id="fr" lang="fr">
+<h1>Newsroom – Commentaires</h1>
+<p>Un problème ou une idée ? Dites-le-nous.</p>
+<div class="choices">
+  <a class="choice" href="https://github.com/brlehe98/newsroom-privacy/issues/new?template=bug.yml"><strong>Signaler un bug</strong><span class="muted">Quelque chose ne fonctionne pas comme prévu.</span></a>
+  <a class="choice" href="https://github.com/brlehe98/newsroom-privacy/issues/new?template=suggestion.yml"><strong>Faire une suggestion</strong><span class="muted">Une idée qui aiderait votre équipe.</span></a>
+</div>
+<p class="muted">Un compte GitHub gratuit est nécessaire. Les signalements sont publics : n'y mettez aucun contenu privé.</p>
+</section>
+</main>
+</body>
+</html>
