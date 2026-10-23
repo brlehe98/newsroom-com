@@ -1,8 +1,18 @@
 name: Report a bug
-description: Something in Newsroom does not work as it should.
+description: Something in Newsroom, Gather or Commons does not work as it should.
 title: "Bug: "
 labels: ["bug"]
 body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Newsroom
+        - Gather
+        - Commons
+    validations:
+      required: true
   - type: textarea
     id: what
     attributes:
